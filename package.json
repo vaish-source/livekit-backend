@@ -1,0 +1,23 @@
+{
+  "name": "livekit-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@novu/node": "^2.6.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "livekit-client": "^2.22.4",
+    "livekit-server-sdk": "^2.17.0",
+    "mongoose": "^9.9.1",
+    "node-cron": "^4.6.0"
+  }
+}
